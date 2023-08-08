@@ -1,0 +1,156 @@
+body{
+  font-family: Montserrat;
+}
+em{
+  color: #fff;
+}
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+.uncolored-section{
+  background-color: #fff;
+}
+
+.download-button{
+  margin:20px 5px 0;
+}
+.container-fluid{
+  padding:3% 15%;
+  font-weight: bold;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-size: 40px;
+  font-family: Ubuntu;
+}
+.nav-item{
+  padding:0 18px;
+  font-size: 1.2rem;
+}
+.title-image{
+  transform: rotate(25deg);
+  width: 330px;
+  position: absolute;
+}
+.bigger-heading{
+  font-family: Montserrat-Black 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+#feature{
+  padding:7% 15%;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+}
+.features{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 8px;
+}
+.features-para{
+  color: #8f8f8f;
+  width:80%;
+  margin: auto;
+}
+.icon{
+  color:#ef8172;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+    padding:100px 0;
+}
+.testimonial-text{
+  padding:0 20%;
+  font-family: Poppins;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000;
+}
+.testimonial-img{
+  width:10%;
+  border-radius: 100%;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.press-img{
+  width: 15%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-need{
+  width:80%;
+  margin:80px auto auto;
+  text-align: center;
+}
+.pricing-heading{
+  font-family: Poppins;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.pricing-price{
+  font-family: Poppins;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.pricing-main-heading{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 8px;
+}
+.unique-card{
+  padding: 3% 2%;
+}
+
+#cta{
+  line-height: 1.5;
+  height:400px;
+  padding: 3% 2%;
+  text-align:center;
+}
+.cta-text{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 8px;
+  color: #fff;
+  font-size: 40px;
+  padding: 4% 25%;
+}
+
+#footer{
+  text-align: center;
+  height: 510px;
+}
+@media(max-width:1028px){
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+  #feature{
+    position: static;
+  }
+}
